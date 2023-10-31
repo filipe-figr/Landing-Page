@@ -44,7 +44,9 @@ html {
     font-weight: bold;
     margin-bottom: 4px;
 }
-
+.figcap__div-third {
+    font-weight: bold;
+}
 /* LAYUOT */
 img {object-fit: cover;}
 .header, .main .main__div-first, .main .main__div-second,
