@@ -9,68 +9,85 @@
 </head>
 <body>
     <header class="header">
-        <h1 class="h1__logo">Header Logo</h1>
-        <nav class="nav__top">
-            <a href="#" class="nav__top-item">Header link one</a>
-            <a href="#" class="nav__top-item">Header link two</a>
-            <a href="#" class="nav__top-item">Header link three</a>
-        </nav>
+        <div class="div__container">
+            <h1 class="header__logo">Header Logo</h1>
+            <nav class="header__nav">
+                <a href="#" class="nav__item">Header link one</a>
+                <a href="#" class="nav__item">Header link two</a>
+                <a href="#" class="nav__item">Header link three</a>
+            </nav>
+        </div>
     </header>
+
     <main class="main">
-        <div class="main__div-first">
-            <div class="div__div-first-left">
-                <h2 class="h2__div-first">This website is awesome</h2>
-                <p class="p__div-first">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button class="btn__div-first">Sign up</button>
-            </div>
-            <img src="./images/blank_image.jpg" alt="placerholder image" height="200" width="500">
-        </div>
-        <div class="main__div-second">
-            <h2 class="h2__div-second">Some random information.</h2>
-            <div class="div__div-second-figs">
-                <figure class="fig__div-second-fig">
-                    <img src="./images/blank_image.jpg" alt="#1" height="150" width="150">
-                    <figcaption class="fig__div-second-text">this is some subtext under an illustration or image</figcaption>
-                </figure>
-                <figure class="fig__div-second-fig">
-                    <img src="./images/blank_image.jpg" alt="#2" height="150" width="150">
-                    <figcaption class="fig__div-second-text">this is some subtext under an illustration or image</figcaption>
-                </figure>
-                <figure class="fig__div-second-fig">
-                    <img src="./images/blank_image.jpg" alt="#2" height="150" width="150">
-                    <figcaption class="fig__div-second-text">this is some subtext under an illustration or image</figcaption>
-                </figure>
-                <figure class="fig__div-second-fig">
-                    <img src="./images/blank_image.jpg" alt="#2" height="150" width="150">
-                    <figcaption class="fig__div-second-text">this is some subtext under an illustration or image</figcaption>
-                </figure>
-            </div>
-        </div>
-        <div  class="main__div-third">
-            <figure>
-                <blockquote class="blck__div-third">
-                    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. who knows ? All i know is that looks nice
-                </blockquote>
-                <figcaption class="figcap__div-third">
-                    &mdash;Thor, God of Thunder
-                </figcaption>
-            </figure>
-        </div>
-        <div class="main__div-four">
-            <section class="sec__div-four" >
-                <div class="div__div-four">
-                    <p class="p__div-four-bold">Call to action! It's time!</p>
-                    <p class="p__div-four">Sign up our product by clicking that button right over there!</p>                    
+        <div class="main__first-div">
+            <div class="div__container">
+                <div class="div__first-block">
+                    <h2 class="block__title">This website is awesome</h2>
+                    <p class="block__text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button class="block__button button--primary">Sign up</button>
                 </div>
-                <button class="btn__div-four">
-                    Sign up
-                </button>
-            </section>
+                <div class="div__second-block">
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="main__second-div">
+            <div class="div__container">
+                <h2 class="div__title">Some random information.</h2>
+                <div class="div__first-block">
+                    <figure class="block-element">
+                        <img src="./images/blank_image.jpg"  alt="" height="180" >
+                        <figcaption class="block__text">
+                            this is some subtext under an illustration or image
+                        </figcaption>
+                    </figure>
+                    <figure class="block-element">
+                        <img src="./images/blank_image.jpg"  alt="" height="180" >
+                        <figcaption class="block__text">
+                            this is some subtext under an illustration or image
+                        </figcaption>
+                    </figure>
+                    <figure class="block-element">
+                        <img src="./images/blank_image.jpg"  alt="" height="180" >
+                        <figcaption class="block__text">
+                            this is some subtext under an illustration or image
+                        </figcaption>
+                    </figure>
+                    <figure class="block-element">
+                        <img src="./images/blank_image.jpg"  alt="" height="180" >
+                        <figcaption class="block__text">
+                            this is some subtext under an illustration or image
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
 
+        <div class="main__third-div">
+            <div class="div__container">
+                <figure class="div__first-block">
+                <blockquote class="block-element--quote">
+                    This is an aspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.
+                </blockquote>
+                <figcaption class="block-element--author">&mdash;Filipe, Figr.</figcaption>
+                </figure>
+
+            </div>
+        </div>
+        <div class="main__fourth-div">
+            <div class="div__container">
+                <div class="div__first-block">
+                    <h3 class="block-element--bold">Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="block__button block__button--secondary">Sign up</button>
+            </div>
+        </div>
     </main>
     <footer class="footer">
-        <p class="p__footer">Copyright © The Odin Project 2021</p>
+        <p class="footer__text">Copyright © <a class="footer__author" href="https://github.com/filipe-figr">Filipe</a></p>
     </footer>
 </body>
 </html>
